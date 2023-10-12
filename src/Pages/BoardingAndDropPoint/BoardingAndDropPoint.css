@@ -1,0 +1,42 @@
+.accordian {
+    margin-top: 1rem;
+    overflow: hidden;
+    border: none;
+}
+
+.accordianitem {
+    background-color: white;
+    border: 2px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    gap: 4px;
+    padding: 1rem;
+    margin-bottom: 2px;
+}
+
+.accordianitem.expanded {
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+
+.accordianbutton {
+    background: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.points {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.points>input {
+    width: 35px;
+}
+
+.points>div {
+    display: flex;
+    flex-direction: column;
+}

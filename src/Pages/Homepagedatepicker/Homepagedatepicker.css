@@ -1,0 +1,70 @@
+.date-picker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-top: -4rem;
+    background-color: #fff;
+    width: 60%;
+    height: 6.5rem;
+    border-radius: 30px;
+    box-shadow: 0px 0.3px  10px rgb(171, 170, 170);
+}
+.dt-btn{
+    background-color: rgb(235, 53, 81);
+    border: none;
+    color: #fff;
+    /* height: 3.5rem; */
+    /* text-align: center; */
+    padding: 1rem 1rem;
+    font-size: 1.7rem;
+    border-radius: 10px;
+}
+.icontext{
+    display: flex;
+    /* max-width: min-content; */
+    justify-content: left;
+    /* padding-right: 20px; */
+    gap: 0.5rem;
+    flex-direction: row;
+}
+.from{
+    display: flex;
+    max-width: min-content;
+    /* justify-items: start; */
+    gap: 0.5rem;
+    flex-direction: row;  
+}
+.select-bar{
+    border: none;
+    height: 2rem;
+    width: 8rem;
+    outline: #fff;
+}
+.to{
+    display: flex;
+    max-width: min-content;
+    /* justify-items: start; */
+    gap: 0.5rem;
+    flex-direction: row;  
+}
+
+
+.date-input{
+    display: flex;
+    max-width: min-content;
+    /* justify-items: start; */
+    gap: 0.5rem;
+    flex-direction: row;  
+}
+.input-items{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.input>span{
+    font-size: 1.5rem;
+}
+.inputss{
+position: relative;
+}

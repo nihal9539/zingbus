@@ -1,0 +1,248 @@
+.accordian {
+    margin-top: 1rem;
+
+    border: none;
+}
+
+.accordianitem {
+    background-color: white;
+    border: 2px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    gap: 4px;
+    padding: 1rem;
+    margin-bottom: 2px;
+}
+
+.accordianitem.expanded {
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+}
+
+.accordianbutton {
+    background: white;
+    padding: 1rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.items{
+  width: 100%;
+}
+.time-amount {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.time-amount>span {
+    color: rgb(28, 40, 207);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.name-seat {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.acordian-dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45rem;
+    background-color: gainsboro;
+    padding: 1rem;
+}
+
+.l-container {
+    width: 28%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.r-container {
+    width: 67%;
+    /* height: 100%; */
+    padding: 1rem;
+    /* background-color: red; */
+}
+
+.prices {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* gap: 10px; */
+}
+
+.amt-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20%;
+    border: 0.5px solid blueviolet;
+    gap: 0.2rem;
+    padding: 0.5rem 1rem;
+    color: blueviolet;
+    width: 6rem;
+    height: 2.2rem;
+
+}
+
+.bus-seats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+
+    /* background-color: black; */
+}
+
+.lower-seat {
+    height: 42%;
+    width: max-content;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: row;
+    padding: 0.8rem;
+}
+
+
+.cus-seats {
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    gap: 1.2rem;
+    flex-direction: column;
+}
+
+.cus-sleeper-seats {
+    /* width: 80%; */
+    padding-left: 30px;
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.driver-seat {
+    /* background-color: red; */
+    padding-right: 1rem;
+}
+
+.seats {
+    /* height: max-content; */
+    padding: 1rem;
+}
+
+.lower-sitting {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 50%;
+}
+
+.lower-sleeper {
+    display: flex;
+    gap: 1.8rem;
+    height: 50%;
+    width: 100%;
+
+}
+
+.left-sleeper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    height: 50%;
+    width: 100%;
+
+}
+
+.right-sleeper {
+    display: flex;
+    margin: 20px;
+}
+
+.left-sleeper>img {
+    /* margin-right: 30px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* width: 11rem; */
+    height: 2.4rem;
+    display: flex;
+    float: left;
+    flex-direction: row;
+    /* align-items: end; */
+
+}
+
+.seat-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.lower-sleeper>img {
+    /* margin-right: 30px; */
+    margin-top: 30px;
+    /* width: 11rem; */
+    height: 2.4rem;
+    display: flex;
+    float: left;
+    flex-direction: row;
+    /* align-items: end; */
+
+}
+
+.upper-seat {
+    height: 42%;
+    padding: 0.8rem;
+    padding-left: 35px;
+    padding-right: 20px;
+    width: max-content;
+    background-color: white;
+}
+
+.seat-type {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+/* seat type */
+.seat-types {
+    height: 10rem;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: yellow; */
+}
+.seat-colm{
+    display: flex;
+    flex-direction: column;
+    
+}
+.seat-row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 3px;
+}
+.row-items{
+    display: flex;
+    justify-content: center;
+}

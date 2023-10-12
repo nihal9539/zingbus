@@ -1,0 +1,82 @@
+.black-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    gap: 0.5rem;
+    background-color: rgb(21, 40, 71);
+    color: white;
+}
+.green-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    gap: 0.5rem;
+    background-color: rgb(5, 52, 5);
+    color: white;
+}
+
+.zingbus{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* justify-content: center; */
+}
+.valbus{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.valbus>img.logo{
+    /* padding: -20px; */
+    /* width: 9rem; */
+    height: 1rem;
+}
+.lux-bus{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.blue-logo{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.green-logo{
+    /* border-radius: 50%; */
+    width: 30px;
+    height: 35px;
+}
+.know-btn{
+    color: #ffff ;
+    border: none;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: blueviolet;
+    padding: 0.5rem 1.5rem;
+    
+}
+.green-know-btn{
+    color: #ffff ;
+    border: none;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: green;
+    padding: 0.5rem 1.5rem;
+}
+.logo-pointer{
+    position: absolute;
+    z-index: 1;
+    left: 38%;
+
+}
+.logo-pointer-2{
+    position: absolute;
+    z-index: 1;
+    left: 59%;
+
+}
